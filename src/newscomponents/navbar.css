@@ -1,0 +1,59 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+    src:url("../font/ClintonBold.ttf");
+    font-family:ClintonBold;
+}
+#root
+{
+    background-color:#fbfbfb;
+    height: 100%;
+}
+.main1
+{
+  
+    position: absolute;
+    background-color:#6D81FE;
+    width: 15vw;
+    padding: 24px 20px 30px 20px;
+    color:white;
+    font-weight: 400;
+}
+img{
+    object-fit: cover;
+}
+.tittle
+{
+    margin-top:10px;
+    font-size: 36px;
+    font-family: ClintonBold;
+}
+.menu
+{
+    margin-top: 150px;
+}
+ul{
+    padding-left: 0px !important;
+    list-style: none;
+}
+.menu ul li
+{
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:30px ;
+}
+.menu ul li a{
+    color: white;
+    text-decoration:none;
+}
+.menu ul li:hover{
+    transform: scale(1.1);
+	box-shadow: 2px 3px 20px black;
+    transition: .3s ease-in-out;
+    border-radius: 6%;
+}
